@@ -38,4 +38,4 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-          tags: josselinduhamel/demo-app:latest
+        tags: josselinduhamel/demo-app:latest
