@@ -38,6 +38,6 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
     -
       name: Build and push
-      uses: josselinduhamel/demo-app@master
+      uses: josselinduhamel/demo-app
       with:
         push: true
