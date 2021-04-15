@@ -38,6 +38,6 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
     -
       name: Build and push
-      uses: docker.io/josselinduhamel/demo-app@master
+      uses: docker/josselinduhamel/demo-app@master
       with:
         push: true
